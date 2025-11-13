@@ -1,0 +1,85 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  info [
+    "The user drives a Supervisor by the Keyboard which drives slaves robots by using an emitter device."
+  ]
+  title "Omniscience"
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 2.6617327288072927e-16 2.1141398225660746 -4.837973661486819e-16
+  follow "wooden box(1)"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+  radius 0.75
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+E-puck {
+  controller "Lab1Controller"
+}
+WoodenBox {
+  translation -0.097042 0.05 -0.076211
+  rotation 0 -1 0 0
+  size 0.1 0.1 0.4
+}
+WoodenBox {
+  translation 0.289279 0.05 -0.382913
+  rotation 0 1 0 -2.100755307179586
+  name "wooden box(1)"
+  size 0.2 0.1 0.2
+}
+WoodenBox {
+  translation 0.589419 0.05 -0.13233
+  rotation 0 -1 0 0.529966
+  name "wooden box(11)"
+  size 0.2 0.1 0.2
+}
+WoodenBox {
+  translation 0.342677 0.05 0.412594
+  rotation -0.8970790766370202 2.1187201810012135e-09 -0.441870037748738 3.14159
+  name "wooden box(2)"
+  size 0.3 0.1 0.5
+}
+WoodenBox {
+  translation -0.520747 0.05 -0.25336
+  rotation 0 1 0 -0.39176530717958613
+  name "wooden box(3)"
+  size 0.3 0.1 0.1
+}
+WoodenBox {
+  translation -0.360981 0.05 0.267583
+  rotation 0 1 0 -0.39176530717958613
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.295498 0.05 0.554298
+  rotation 0 1 0 -0.39176530717958613
+  name "wooden box(5)"
+  size 0.02 0.1 0.2
+}
+WoodenBox {
+  translation -0.558736 0.05 0.125209
+  rotation 0 1 0 5.36782
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.096399 0.05 -0.170289
+  name "wooden box(9)"
+  size 0.1 0.1 0.4
+}
+WoodenBox {
+  translation -0.20977 0.05 -0.635013
+  rotation 0 1 0 5.36782
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}

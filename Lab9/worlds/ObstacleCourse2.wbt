@@ -1,0 +1,203 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position -0.04638039057555722 5.379477634042701 -0.13496847285466293
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.02 0 -0.07
+  floorSize 4.4 1.5
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+WoodenBox {
+  translation -0.87124 0.02 -0.0726757
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(1)"
+  size 0.05 0.05 0.15
+}
+WoodenBox {
+  translation -0.98124 0.02 -0.12268
+  rotation 0 1 0 1.5708
+  name "wooden box(14)"
+  size 0.05 0.05 0.15
+}
+WoodenBox {
+  translation -1.57124 0.02 -0.09268
+  rotation 0 1 0 1.5708
+  name "wooden box(4)"
+  size 0.05 0.05 0.3
+}
+WoodenBox {
+  translation -1.62124 0.02 0.16732
+  rotation 0 1 0 1.5708
+  name "wooden box(5)"
+  size 0.05 0.05 0.3
+}
+WoodenBox {
+  translation -1.03124 0.02 0.00732446
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(7)"
+  size 0.05 0.05 0.2
+}
+WoodenBox {
+  translation -1.75124 0.02 0.007326
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(15)"
+  size 0.05 0.05 0.25
+}
+WoodenBox {
+  translation -0.72124 0.02 -0.0526763
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(8)"
+  size 0.05 0.05 0.4
+}
+WoodenBox {
+  translation -1.38124 0.02 -0.262675
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(3)"
+  size 0.05 0.05 0.4
+}
+WoodenBox {
+  translation -1.44124 0.02 0.257325
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(6)"
+  size 0.05 0.05 0.4
+}
+WoodenBox {
+  translation -1.20124 0.02 0.0173239
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(12)"
+  size 0.05 0.05 0.55
+}
+WoodenBox {
+  translation -0.89124 0.02 0.31732
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(13)"
+  size 0.05 0.05 0.65
+}
+WoodenBox {
+  translation -0.91124 0.02 0.48732
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(16)"
+  size 0.05 0.05 1
+}
+WoodenBox {
+  translation -1.21124 0.02 -0.64268
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(18)"
+  size 0.05 0.05 1.6
+}
+WoodenBox {
+  translation -1.10124 0.02 0.64732
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(20)"
+  size 0.05 0.05 1.8
+}
+WoodenBox {
+  translation -1.00124 0.02 -0.49268
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(2)"
+  size 0.05 0.05 0.8
+}
+WoodenBox {
+  translation 1.03876 0.02 -0.49268
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(25)"
+  size 0.05 0.05 0.8
+}
+WoodenBox {
+  translation -0.90124 0.02 0.13732
+  rotation 0 1 0 -1.5707953071795862
+  name "wooden box(9)"
+  size 0.05 0.05 0.3
+}
+WoodenBox {
+  translation -0.95124 0.02 -0.28268
+  rotation 0 1 0 1.5708
+  name "wooden box(10)"
+  size 0.05 0.05 0.5
+}
+WoodenBox {
+  translation -0.57124 0.02 -0.11268
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(11)"
+  size 0.05 0.05 0.8
+}
+WoodenBox {
+  translation 1.35297 0.02 -0.219145
+  rotation 0 1 0 1.5708
+  name "wooden box(29)"
+  size 0.05 0.05 0.5
+}
+WoodenBox {
+  translation 1.40023 0.02 -0.080152
+  rotation 0 1 0 0.785401
+  name "wooden box(28)"
+  size 0.05 0.05 0.4
+}
+WoodenBox {
+  translation 1.76749 0.02 -0.0025793
+  rotation 0 -1 0 -5.307179586466759e-06
+  name "wooden box(27)"
+  size 0.05 0.05 0.4
+}
+WoodenBox {
+  translation 0.919458 0.02 -0.051866
+  rotation 0 1 0 0.785401
+  name "wooden box(26)"
+  size 0.05 0.05 0.7
+}
+WoodenBox {
+  translation -0.39124 0.02 -0.07268
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(17)"
+  size 0.05 0.05 1.2
+}
+WoodenBox {
+  translation -0.23124 0.02 0.00731994
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(21)"
+  size 0.05 0.05 1.2
+}
+WoodenBox {
+  translation 0.35876 0.02 -0.20268
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(22)"
+  size 0.05 0.05 1.2
+}
+WoodenBox {
+  translation 0.07876 0.02 0.0673193
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(23)"
+  size 0.05 0.05 1.2
+}
+WoodenBox {
+  translation 0.60876 0.02 0.077319
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(24)"
+  size 0.05 0.05 1.2
+}
+WoodenBox {
+  translation -1.98124 0.02 -0.0026771
+  rotation 0 1 0 2.24093e-06
+  name "wooden box(19)"
+  size 0.05 0.05 1.2
+}
+E-puck {
+  translation -1.61 0 2.03922e-07
+  rotation 0 1 0 -1.5707953071795862
+  controller "Lab9Controller"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+    }
+  ]
+}

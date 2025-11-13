@@ -1,0 +1,26 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.0400089167965951 1.0631304045310153 -0.09787422865541302
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -1.10113e-13 -8.68185e-06 0
+  rotation -7.023870449689271e-09 0.21517701377627838 -0.9765750625232671 -5.307179586466759e-06
+  floorSize 2 2
+  floorTileSize 0.2 0.2
+  floorAppearance Parquetry {
+    type "chequered"
+    colorOverride 0.8 1 1
+  }
+  wallHeight 0.05
+}
+E-puck {
+  controller "Lab4Controller"
+}

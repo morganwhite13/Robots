@@ -1,0 +1,100 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position -0.06743072844533413 3.242931169103147 0.14966892682386124
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 0.16
+  floorSize 2 2
+  floorTileSize 1 1
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Mirror {
+  translation -0.0199988 -0.14 -0.83
+  rotation -0.0026073289594429508 0.9999966009120719 -3.4468886243836845e-09 -5.307179586466759e-06
+  width 0.05
+  height 0.2
+}
+WoodenBox {
+  translation -0.77 0.2 -0.63
+  size 0.4 0.4 0.4
+}
+WoodenBox {
+  translation -0.79 0.11 0.71
+  rotation 0 1 0 3.46682e-06
+  name "wooden box(1)"
+  size 0.2 0.2 0.4
+}
+WoodenBox {
+  translation -0.59 0.11 0.24
+  rotation 0 1 0 3.46682e-06
+  name "wooden box(2)"
+  size 0.8 0.2 0.1
+}
+CerealBox {
+  translation 0.9400000075421648 -0.00039239999999995945 1.6744930226738471e-09
+  rotation -1.4580484762228546e-12 0.9999999999999999 3.6275104621200976e-11 -4.3650942824722316e-07
+}
+BiscuitBox {
+  translation 0.601642 0.039843 0.311452
+  rotation 0.9353655396191508 -0.2500912906250182 0.2500912906250182 1.6375645373520737
+}
+BiscuitBox {
+  translation 0.757684 0.0398432 0.513204
+  rotation 0.4769049595882678 -0.6215149473343795 -0.6215149473343795 -2.2515953071795867
+  name "biscuit box(1)"
+}
+BiscuitBox {
+  translation 0.631211 -0.00015696 0.275467
+  rotation 7.2434e-18 -1 2.35902e-17 -2.6179953071795863
+  name "biscuit box(3)"
+}
+BiscuitBox {
+  translation 0.873475 -0.00015696 0.336809
+  rotation -8.60628e-19 1 -2.38208e-17 3.14159
+  name "biscuit box(4)"
+}
+BiscuitBox {
+  translation 0.874023975201519 -0.0001560950345976357 0.6549998018215863
+  rotation -0.0017293753905083605 0.9999980326005526 0.0009716253305074722 0.2617823104014434
+  name "biscuit box(2)"
+}
+CardboardBox {
+  translation 0.84 0.05 -0.55
+  size 0.3 0.1 0.3
+}
+DesktopComputer {
+  translation -0.37 0 0.95
+}
+WoodenChair {
+  translation -0.0773649 0.2 -0.150358
+  rotation 0.25056300542381216 -0.25056300542381216 0.9351130202419243 -1.6378353071795866
+}
+Can {
+  translation 0.42 0.060962659999999995 -0.34
+  rotation 0.9972140891848994 -0.02145913504426617 0.0714392458966598 1.251608140841658e-15
+}
+Can {
+  translation 0.36 0.060962659999999995 -0.45
+  rotation 0.9972140891848994 -0.02145913504426617 0.0714392458966598 1.251608140841658e-15
+  name "can(1)"
+}
+E-puck {
+  translation -0.0949605 -0.00230197 -0.779334
+  rotation 0 1 0 1.5619896938995748
+  controller "Lab8Controller"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+    }
+  ]
+}
