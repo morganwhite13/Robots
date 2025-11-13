@@ -1,0 +1,90 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.00029517323215060156 3.5854969076255823 7.2100457541596625e-06
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Khepera3Modified {
+  controller "Lab11Controller"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+    }
+    Display {
+      width 400
+      height 300
+    }
+  ]
+}
+WoodenBox {
+  translation -0.684288 0.05 0.0980416
+  rotation 0 1 0 -0.2625953071795859
+  name "wooden box(3)"
+  size 0.6 0.1 0.02
+}
+WoodenBox {
+  translation 0.736413 0.05 0.108497
+  rotation 0 1 0 0.261004
+  name "wooden box(4)"
+  size 0.54 0.1 0.02
+}
+WoodenBox {
+  translation 0.735199 0.05 -0.75492
+  rotation 0 1 0 -0.000795307179585869
+  name "wooden box(1)"
+  size 0.54 0.1 0.02
+}
+WoodenBox {
+  translation 1.00488 0.05 -0.354704
+  rotation 0 1 0 -1.571595307179586
+  name "wooden box(2)"
+  size 0.8 0.1 0.02
+}
+DEF floor RectangleArena {
+  floorSize 2 1.5
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+SolidBox {
+  translation 0.48 0.15 -0.34
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0 0 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0 0.15 -0.34
+  name "box(2)"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.49 0.15 -0.34
+  name "box(4)"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+  }
+}
+Sofa {
+  translation -1.48 -0.14 0
+}
+Mirror {
+  translation 0.0400017 -0.03 0.18
+  rotation 0 1 0 3.14159
+  width 0.8
+  height 0.2
+}

@@ -1,0 +1,91 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position -0.0013504711992079754 2.660805731190057 -0.003399060985297131
+  follow "wooden box(1)"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Khepera3Modified {
+  controller "Lab10Controller"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+    }
+    Display {
+      width 400
+      height 300
+    }
+  ]
+}
+WoodenBox {
+  translation -0.232304 0.05 -0.021211
+  rotation 0 -1 0 4.692820414042842e-06
+  size 0.1 0.1 0.4
+}
+WoodenBox {
+  translation 0.9877 0.05 -0.00120789
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(6)"
+  size 0.02 0.1 1.5
+}
+WoodenBox {
+  translation -0.9923 0.05 -0.00121727
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(7)"
+  size 0.02 0.1 1.5
+}
+WoodenBox {
+  translation -0.0022968 0.05 -0.741212
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(8)"
+  size 1.96 0.1 0.02
+}
+WoodenBox {
+  translation -0.00230398 0.05 0.738788
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(9)"
+  size 1.96 0.1 0.02
+}
+WoodenBox {
+  translation -0.0454502 0.05 -0.370407
+  rotation 0 -1 0 1.57716
+  name "wooden box(1)"
+  size 0.2 0.1 0.2
+}
+WoodenBox {
+  translation 0.175894 0.05 -0.366842
+  rotation 0 1 0 1.56443
+  name "wooden box(11)"
+  size 0.2 0.1 0.2
+}
+WoodenBox {
+  translation 0.443495 0.0500029 -0.016317
+  rotation 0.9999999999999308 3.721601261176381e-07 0 -3.1415853071795863
+  name "wooden box(2)"
+  size 0.3 0.1 0.5
+}
+WoodenBox {
+  translation -0.158803 0.05 0.386952
+  rotation 0 1 0 0.917232
+  name "wooden box(3)"
+  size 0.3 0.1 0.25
+}
+WoodenBox {
+  translation 0.229429 0.05 0.416164
+  rotation 0 -1 0 -2.094395307179586
+  name "wooden box(5)"
+  size 0.3 0.1 0.25
+}
+DEF floor RectangleArena {
+  floorSize 2 1.5
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}

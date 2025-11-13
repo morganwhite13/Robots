@@ -1,0 +1,118 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.00030515601687559 3.7971771328188497 3.501262190618481e-06
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF floor RectangleArena {
+  floorSize 2 2
+  floorTileSize 1 1
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Khepera3Modified {
+  rotation 0.9999999953792447 1.2934717681098688e-07 -9.613268855466472e-05 -0.0010991119584890477
+  controller "Lab11Controller"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+    }
+    Display {
+      width 400
+      height 400
+    }
+  ]
+}
+Mirror {
+  translation -0.559997 -0.14 -0.88
+  rotation 6.91879e-09 1 6.91881e-09 1.57079
+  width 0.2
+  height 0.2
+}
+WoodenBox {
+  translation -0.77 0.2 -0.79
+  size 0.4 0.4 0.4
+}
+WoodenBox {
+  translation -0.75572 0.11 0.16134
+  rotation 0 1 0 2.618
+  name "wooden box(1)"
+  size 0.2 0.2 0.4
+}
+PottedTree {
+  translation 0.16 0 0.81
+}
+CerealBox {
+  translation 0.9400000075421648 -0.00039239999999995945 1.6744930188641097e-09
+  rotation -3.751971500455591e-11 0.9999999999999999 -2.8566040527080552e-11 -4.365094282475667e-07
+}
+BiscuitBox {
+  translation 0.85562 -0.00015696 0.35902
+  rotation -2.0476710121109306e-17 1 4.392757162092024e-19 -2.617995307183118
+  name "biscuit box(3)"
+}
+BiscuitBox {
+  translation 0.862055 -0.000199604 0.55572
+  rotation 0.0005991157184768372 0.9999995301024128 -0.0007621386418727228 -0.5236253071795867
+  name "biscuit box(2)"
+}
+HoneyJar {
+  translation 0.48 -0.0006962 0.15
+  rotation -0.33443207607199954 -0.04578468754433956 -0.9413070428296177 5.284041347673004e-17
+}
+CardboardBox {
+  translation 0.84 0.05 -0.86
+  size 0.3 0.1 0.3
+}
+DesktopComputer {
+  translation -0.37 0 0.82
+}
+WoodenChair {
+  translation -0.0773648 0.2 0.0759164
+  rotation 0.35740699927911007 -0.35740699927911007 0.8628559982596194 -1.7177753071795863
+}
+Can {
+  translation 0.42 0.06096266 -0.34
+  rotation 0.588573268057891 -0.7568591591328642 -0.28415791624437997 1.0372440164333706e-16
+}
+Can {
+  translation 0.41 0.0609627 -0.21
+  rotation 0.588573268057891 -0.7568591591328642 -0.28415791624437997 1.0372440164333706e-16
+  name "can(2)"
+}
+Can {
+  translation 0.36 0.0609627 -0.4
+  rotation 0.588573268057891 -0.7568591591328642 -0.28415791624437997 1.0372440164333706e-16
+  name "can(1)"
+}
+Can {
+  translation 0.29 0.0609627 -0.44
+  rotation 0.588573268057891 -0.7568591591328642 -0.28415791624437997 1.0372440164333706e-16
+  name "can(3)"
+}
+Ball {
+  translation 0.96 0.03241367200000001 0.93
+}
+Ball {
+  translation 0.96 0.0324137 0.72
+  name "ball(1)"
+}
+Ball {
+  translation 0.9 0.0324137 0.83
+  name "ball(2)"
+}
+Ball {
+  translation 0.81 0.0324137 0.86
+  name "ball(3)"
+}
+Ball {
+  translation 0.86 0.0324137 0.96
+  name "ball(4)"
+}

@@ -1,0 +1,103 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.00029517323212965515 3.7001124646567987 7.2100457930072675e-06
+  follow "wooden box(1)"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Khepera3Modified {
+  controller "Lab11Controller"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+    }
+    Display {
+      width 400
+      height 300
+    }
+  ]
+}
+WoodenBox {
+  translation -0.232304 0.05 -0.021211
+  rotation 0 1 0 0.523599
+  size 0.1 0.1 0.4
+}
+WoodenBox {
+  translation 0.9877 0.05 -0.00120789
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(6)"
+  size 0.02 0.1 1.5
+}
+WoodenBox {
+  translation -0.9923 0.05 -0.00121727
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(7)"
+  size 0.02 0.1 1.5
+}
+WoodenBox {
+  translation -0.0022968 0.05 -0.741212
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(8)"
+  size 1.96 0.1 0.02
+}
+WoodenBox {
+  translation -0.00230398 0.05 0.738788
+  rotation 0 -1 0 4.692820414042842e-06
+  name "wooden box(9)"
+  size 1.96 0.1 0.02
+}
+WoodenBox {
+  translation 0.225919 0.05 -0.373676
+  rotation 0 1 0 -2.100755307179586
+  name "wooden box(1)"
+  size 0.2 0.1 0.2
+}
+WoodenBox {
+  translation 0.680409 0.05 -0.287634
+  rotation 0 1 0 0.517232
+  name "wooden box(11)"
+  size 0.2 0.1 0.2
+}
+WoodenBox {
+  translation 0.373152 0.05 0.452234
+  rotation -0.8970790766370202 2.1187201810012135e-09 -0.441870037748738 3.14159
+  name "wooden box(2)"
+  size 0.3 0.1 0.5
+}
+WoodenBox {
+  translation -0.527227 0.05 -0.20378
+  rotation 0 -1 0 0.129966
+  name "wooden box(3)"
+  size 0.3 0.1 0.1
+}
+WoodenBox {
+  translation -0.887777 0.05 0.0499537
+  rotation 0 1 0 -0.39176530717958613
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.501815 0.05 0.555639
+  rotation 0 1 0 -1.7007653071795863
+  name "wooden box(5)"
+  size 0.3 0.1 0.2
+}
+WoodenBox {
+  translation -0.20977 0.05 -0.635013
+  rotation 0 1 0 5.36782
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}
+DEF floor RectangleArena {
+  floorSize 2 1.5
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
